@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+  background: #a5dce4 !important; /* azul clarinho */
+  color: #333;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+
+/* Cabeçalho fixo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00796b !important; /* verde escuro */
+  color: #fff !important;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header nav a {
+  color: #fff !important;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #ffd54f !important; /* amarelo suave */
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff !important; /* branco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-weight: bold;
+  color: #00796b !important;
+}
+
+form input, form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f1f8e9 !important; /* verde clarinho */
+}
+
+form button {
+  padding: 10px;
+  background: #ff8a65 !important; /* laranja suave */
+  border: none;
+  color: #fff !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: #e57353 !important;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #00796b !important; /* verde escuro */
+  color: #fff !important;
+}
+
+table tr:nth-child(even) {
+  background: #b2dfdb !important; /* verde clarinho */
+}
+
+table tr:nth-child(odd) {
+  background: #e0f2f1 !important; /* azul clarinho */
+}
+
+/* Botões de ação */
+.btn-edit {
+  background: #4db6ac !important; /* verde médio */
+  color: #fff !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background: #009688 !important;
+}
+
+.btn-delete {
+  background: #f06292 !important; /* rosa suave */
+  color: #fff !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #e91e63 !important;
+}
