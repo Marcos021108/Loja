@@ -1,5 +1,6 @@
 <?php
     require 'conexao.php';
+
     $nome = $_POST['produto'];
     $preco = $_POST['preco'];
     $estoque = $_POST['quantidade'];
@@ -13,7 +14,7 @@
 
     if ($stmt->execute()) {
         echo "Produto inserido com sucesso!";
-    } else {
+        } else {
         echo "Erro ao inserir produto.";
-    }
+        }
 ?>

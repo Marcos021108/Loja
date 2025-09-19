@@ -26,8 +26,10 @@
           <div class="mb-3">
                 <input type="text" name="quantidade" class="form-control" placeholder="Digite a quantidade">
           </div>
+          <a href="index.php" type="button" class="btn btn-danger">Voltar</a>
           <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
+        
     </div>
     
 </body>
